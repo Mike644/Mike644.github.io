@@ -1,0 +1,196 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #629d62;
+  width: 100%;
+  height: 60px;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display:block;
+  padding: 0;
+  background-color: #dddddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  
+}
+
+a:link, a:hover{
+    color:#d9d9d9;
+    background-color:transparent;
+    text-decoration: none;
+  }
+#footer {
+  position: fixed;
+  left: 5%;
+  bottom: 1%;
+  width: 90%;
+  height: 11%;
+  background-color: #629d62;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+
+.one {
+color:red;
+text-align: center;
+margin: 0%;
+padding: 2%;
+}
+#two {position: absolute;
+  top:220px;
+  left:500px;
+  max-width: 100%;
+  height: auto;
+}
+aside {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  margin: 36x;
+  font-style: italic;
+  
+}
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse:initial;
+  padding: 10px;
+ background-color: aquamarine;
+  width: 0;
+  font-size: 15px;
+
+}
+@font-face {
+  font-family: "mike";
+  src: url("../font/mike.otf");
+}
+@font-face {
+  font-family: "font";
+  src: url("../font/font.otf");
+}
+h1, h2  {
+
+  font-family: "mike";
+}
+h3{
+  font-family: "font";
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 26px;
+}
+#head {
+  position: absolute;
+  top:70px;
+  left: 15%;
+  width: 70%;
+  height: 90px;
+  text-align: center;
+}
+
+#left{
+  position: absolute;
+  top: 30%;
+  left: 3%;
+
+  height: 55%;
+  width: 25%;
+
+  
+}
+
+#center{
+  position: absolute;
+  top: 30%;
+  left: 33%;
+
+  height: 55%;
+  width: 30%;
+
+  
+}
+#right{
+  position: absolute;
+  top: 30%;
+  left: 70%;
+
+  height: 55%;
+  width: 25%;
+
+  
+}
+.container  {
+  padding: 2px;
+}
+img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+ol{
+  list-style-type: none;
+}
+#r {
+  border:solid;
+  
+width: 70%;
+
+}
+#ref{
+  width: 70%;
+  padding: 1%;
+  margin: 1%;
+}
+#animation{
+width: 100px;
+  height: 100px;
+  background-color:green;
+  -webkit-animation-name: mike; 
+  -webkit-animation-duration: 4s; 
+  animation-name: mike;
+  animation-duration: 10s;
+}
+
+
+@-webkit-keyframes mike {
+  from {background-colo:orange;}
+  to {background-color:lawngreen;}
+}
+
+
+@keyframes mike {
+  from {background-color:orange;}
+  to {background-color: lightgreen;}
+}
+#com{
+  top: 30%;
+  left: 1%;
+
+  height: 55%;
+  width: 25%;
+
+  
+}
+h4 {text-align: center;}
+.l {float: left; margin: 3px;}
+.r {float: right; margin: 3px;}
+
